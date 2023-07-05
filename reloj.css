@@ -1,0 +1,101 @@
+.circle-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: rgba(239, 243, 13, 0.151);
+    position: relative;
+    display: flex;
+    left:28vw;
+
+  }
+
+ 
+  
+  .circle-list li {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+
+    
+  }
+ 
+
+  
+  .circle-list li:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(30deg) translate(0, -200px) rotate(-30deg) 
+  }
+  
+  .circle-list li:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(60deg) translate(0, -200px) rotate(-60deg)
+  }
+  
+  .circle-list li:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(90deg) translate(0, -200px) rotate(-90deg)
+  }
+  .circle-list li:nth-child(4) {
+    transform: translate(-50%, -50%) rotate(120deg) translate(0, -200px) rotate(-120deg)
+  }
+  .circle-list li:nth-child(5) {
+    transform: translate(-50%, -50%) rotate(150deg) translate(0, -200px) rotate(-150deg)
+  }
+  .circle-list li:nth-child(6) {
+    transform: translate(-50%, -50%) rotate(180deg) translate(0, -200px) rotate(-180deg)
+  }
+  .circle-list li:nth-child(7) {
+    transform: translate(-50%, -50%) rotate(210deg) translate(0, -200px) rotate(-210deg)
+  }
+  .circle-list li:nth-child(8) {
+    transform: translate(-50%, -50%) rotate(240deg) translate(0, -200px) rotate(-240deg)
+  }
+  .circle-list li:nth-child(9) {
+    transform: translate(-50%, -50%) rotate(270deg) translate(0, -200px) rotate(-270deg)
+  }
+  .circle-list li:nth-child(10) {
+    transform: translate(-50%, -50%) rotate(300deg) translate(0, -200px) rotate(-300deg)
+  }
+  .circle-list li:nth-child(11) {
+    transform: translate(-50%, -50%) rotate(330deg) translate(0, -200px)  rotate(-330deg)
+  }
+
+  .circle-list li:nth-child(12) {
+    transform: translate(-50%, -50%) rotate(360deg) translate(0, -200px) 
+  }
+  
+  .circle-list li:nth-child(13) {
+    background-color: black;
+    height: 130px;
+    width: 5px;
+    position: relative;
+    transform:var(--mivariableHour );
+    transform-origin: top center; 
+
+  }
+  .circle-list li:nth-child(14) {
+    background-color: black;
+    height: 180px;
+    width: 5px;
+    position: relative;
+    transform:var(--mivariableMin );
+    transform-origin: top center; 
+
+  }
+  
+  .circle-list li:nth-child(15) {
+    background-color: rgb(158, 7, 7);
+    height: 180px;
+    width: 5px;
+    position: relative;
+    transform:var(--mivariableSecond);
+    transform-origin: top center; 
+
+  }
+  
